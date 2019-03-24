@@ -1,0 +1,37 @@
+/* .juego, .cpu{
+    margin-top: 30px;
+    vertical-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+} */
+h1{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.usuario{
+    display: block;
+}
+.juego{
+    display: flex;
+    vertical-align: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    display: block;
+}
+.usuario img{
+    opacity: 1.0;
+}
+.usuario img:hover{
+    opacity: 0.5;
+}
+/* div{
+    border: 1px solid black;
+} */

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>Piedra, Papel o Tijeras</h1>
+    <div class="inputs">
+      <input type="text" name="nombre" id="nombrehtml" required="True" placeholder="Tu nombre">
+      <input type="submit" value="Enviar" id="boton" onclick="boton()">
+    </div>
+    <div class="juego">
+      <div class="usuario" id="usuariohtml">
+        <h3 class="nombreusuario">Usuario</h3>
+        <img src="piedra.jpeg" alt="piedra" id="piedrahtml" height="150px" width="150px">
+        <img src="papel.jpeg" alt="papel" id="papelhtml" height="150px" width="150px">
+        <img src="tijeras.png" alt="tijeras" id="tijerashtml" height="150px" width="150px">
+      </div>
+      <div class="cpu">
+        <h3>CPU</h3>
+        <img src="piedra.jpeg" alt="piedra" id="piedra2html" height="150px" width="150px">
+        <img src="papel.jpeg" alt="papel" id="papel2html" height="150px" width="150px">
+        <img src="tijeras.png" alt="tijeras" id="tijeras2html" height="150px" width="150px">
+      </div>
+      <div class="score">
+        <h3>Score</h3>
+        <div>
+          <h4 class="nombreusuario">Score usuario</h4>
+          <p id="scoreusuario"></p></p>
+        </div>
+        <div>
+          <h4>Score CPU</h4>
+          <p id="scorecpu"></p>
+        </div>
+        <div>
+          <h4>Ganador</h4>
+          <p id="ganador"></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="ppot2.js"></script>
+  </body>
+</html>
